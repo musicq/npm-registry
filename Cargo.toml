@@ -1,0 +1,14 @@
+[package]
+name = "npm-registry"
+version = "0.2.0"
+edition = "2021"
+description = "Switch npm registry between work & home"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "npm-registry"
+path = "src/main.rs"
+
+[dependencies]
+dirs = "4.0.0"
